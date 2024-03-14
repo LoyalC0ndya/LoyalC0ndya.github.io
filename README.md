@@ -50,3 +50,15 @@ Para una lista sin orden tendremos que poner guíones  un espacio y el texto que
 - Lista sin ordenar
 - Lista sin ordenar
 - Lista sin ordenar
+
+#### ANIDADES
+
+Las listas anidadas son listas con otras listas dentro:
+
+1. Primer elemento
+2. Segundo elemento
+	- Sub elemento 
+	- Sub elemento
+3. Tercer elemento
+
+Entonces para poder poner sub elementos tendremos que poner una lsita normal y justo debajo tendremos que poner una taulación para pdoer anidarla correctamente.

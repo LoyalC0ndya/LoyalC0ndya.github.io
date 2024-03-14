@@ -29,6 +29,24 @@ Para poner cosas en cursiva se tendra que poner un guión bajo al principio y un
 
 **Nota**:No debe de haber espacio entre los asteriscos y el guión y la palabra a destacar
 
-### Negrita y cursiva
+#### Negrita y cursiva
 
 para utilizar dos enfasis lo haremos en con dos asteriscos seguidosfr un guion y de la palabra que queremos
+
+### LISTAS
+
+#### ORDENADAS
+
+1. Esto es un elemento
+2. Esto es otro elemento
+3. Esto es el tercero
+
+las listas necesitan un numero con un punto y una palabra o frase que queremos poner en una lsita
+
+#### SIN ORDEN
+
+Para una lista sin orden tendremos que poner guíones  un espacio y el texto que queremos listar:
+
+- Lista sin ordenar
+- Lista sin ordenar
+- Lista sin ordenar

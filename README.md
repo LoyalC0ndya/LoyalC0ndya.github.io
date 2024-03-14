@@ -62,3 +62,11 @@ Las listas anidadas son listas con otras listas dentro:
 3. Tercer elemento
 
 Entonces para poder poner sub elementos tendremos que poner una lsita normal y justo debajo tendremos que poner una taulación para pdoer anidarla correctamente.
+
+### IMAGEN 
+
+para añadir una imagen tendremos que poner una descripción y el nombre de la imagen.
+
+!{Foto Josue}(JosueSallent.jpg)
+
+Se tendra que poner al principio una exclamaciónj luego llave angulada con la descripción cerramos y con parentesos ponemos la ruta de la iamgen o el nombre de ella. !{}()

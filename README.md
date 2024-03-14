@@ -77,4 +77,12 @@ Para pdoer poner enlaces que reedireccionen a otras paginas podremos hacerlo apr
 [link.Enti](https://enti.cat)
 
 La forma de insertarlo tendra que ser la siguiente:
-[texto]()El link dentro del parentesis
+[]()El link dentro del parentesis
+
+### BLOQUES DE CITA
+
+Los bloques de cita nos ayudam a destacar el codigo o frase que nos interesa
+
+> Esto es uan cita
+
+una cita se pone con el pececito el simbolo de mas pequeño y luego un espacio

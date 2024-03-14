@@ -67,6 +67,6 @@ Entonces para poder poner sub elementos tendremos que poner una lsita normal y j
 
 para añadir una imagen tendremos que poner una descripción y el nombre de la imagen.
 
-!{Foto Josue}(JosueSallent.jpg)
+![Foto Josue](JosueSallent.jpg)
 
 Se tendra que poner al principio una exclamaciónj luego llave angulada con la descripción cerramos y con parentesos ponemos la ruta de la iamgen o el nombre de ella. !{}()

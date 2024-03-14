@@ -69,4 +69,12 @@ para añadir una imagen tendremos que poner una descripción y el nombre de la i
 
 ![Foto Josue](JosueSallent.jpg)
 
-Se tendra que poner al principio una exclamaciónj luego llave angulada con la descripción cerramos y con parentesos ponemos la ruta de la iamgen o el nombre de ella. !{}()
+Se tendra que poner al principio una exclamaciónj luego llave angulada con la descripción cerramos y con parentesos ponemos la ruta de la iamgen o el nombre de ella. ![]()
+
+### ENLACES
+
+Para pdoer poner enlaces que reedireccionen a otras paginas podremos hacerlo aprecido a alas imagenes pero es distinto:
+[link.Enti](https://enti.cat)
+
+La forma de insertarlo tendra que ser la siguiente:
+[texto]()El link dentro del parentesis

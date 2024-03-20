@@ -124,6 +124,28 @@
 	text-align:center;
 	margin-top:70px;
 	}
+
+	#contenido {
+		transition: transform 2s; /* Ajusta la duración de la animación a tu preferencia */
+	}
+
+	button {
+		position: fixed; /* O cualquier otra posición que asegure que el botón no gire */
+		bottom: 20px;
+		right: 20px;
+		z-index: 1000; /* Asegura que el botón se mantenga encima del contenido girado */
+	}
 	
+	
+	
+	#Volteretas img {
+		width: 100px;
+		height: 100px;
+		transition: transform 2s;
+	}
+
+	#Volteretas:hover img {
+		transform: translateX(1400px); /*Lo que hace es que cuando pasemos por encima de la imagen la iamgen se mueva en posicion X 1400px */
+}
 	
 	

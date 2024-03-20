@@ -10,9 +10,9 @@
 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Honk&display=swap" rel="stylesheet">
-	
-	<link rel="stylesheet" type="text/css" href="css_samvalentin.css">
+	<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="CSS-Index.css">
 	
 </head>
 
@@ -20,64 +20,33 @@
 <header>
 	<nav> 
 		<ul>
-			<li><a class="rajdhani-light" href="SobreMi.html" class="links">Sobre Mi</a></li>
+			<li><a class="rajdhani-light" href="index.html" class="links">Sobre Mi</a></li>
 			<li><a class="rajdhani-light" href="curriculum.html" class="links">Curriculum</a></li>
 			<li><a class="rajdhani-light" href="Contacto.html" class="links">Contacto</a></li>
 			<li><a class="rajdhani-light" href="Login.html" class="links">Login</a></li>
-			<li><a class="rajdhani-light" href="index.html" class="links">SamVaLentin</a></li>
 		</ul>
 	</nav>
 </header>
 <main>
+
+	<h1 class="titulos">Sobre Mi</h1>
+
+	<p id="SobreMitxt">Hola soy Pol Granado Gali un estudiante de 18 años, apasionado por la informatica que busca entender y saber mas sobre este mundo,
+	actualemnte (03/03/2024) estudio un grado superior de Ciberseguridad en ENTI.</p>
 	
-	<button onclick="document.getElementById('myAudio').play()">Reproducir Música</button>
-	<audio id="myAudio" loop>
-		<source src="musica_paginaweb.mp3" type="audio/mp3">
-	</audio>
+	<p id="fotopolgranado"><img src="Fotos/foto_PolGranado.jpeg" alt="imagen pol granado"/></p>
 	
-	
-	<p id="foto_pol_samvalentin"><img src="fotos/samvalentin-ftopol.jpeg" alt="FotoPolGranadoSamVaLentin"/></p>
-	
-	<p class="bungee-spice-regular" id="TextoSanVaLentin">¡HEY! Si estas aqui es por que estamos en San Valentín y eso quiere decir que igual estas solo o no! jajaja, te presento a Ainhoa
-		una chica soltera y muy guapa esta soltera si queires contactar con ella contacta por el questionario! Gracias por pasarte por aqui!
-	</p>
-	
-	<p id="fotosanvalentin"><img src="fotos/piolin_1.gif" alt="Piolin amoroso"/></p>
-    
-	<form id="form_contacto">
-		<p class="rajdhani-light"><label for="msg_form">Mensaje:</label><input type="msg" name="msg" id="msg_form" placeholder="Mensaje"></p>
-		<p class="rajdhani-light"><label for="captcha_form">ReCaptcha<input type="checkbox" name="robot" id="robot_form"></label></p>
-		<p class="rajdhani-light"><input type="submit" value="ENVIAR"></p>
-	</form>
-	
+	<ul class="listagustos">
+		<h2>Mis Gustos</h2>
+		<li class="rajdhani-light">Jugar Videojuegos</li>
+		<li class="rajdhani-light">Historia</li>
+		<li class="rajdhani-light">Quedar con amigos</li>
+		<li class="rajdhani-light">Cocinar</li>
+	</ul>
 	
 </main>
 <footer>
 </footer>
-<script>
-  document.addEventListener('DOMContentLoaded', () => {
-  const mainElement = document.querySelector('main');
-  const heartWidthPercent = 3;
-
-  for (let i = 0; i < 100; i++) {
-    let heart = document.createElement('div');
-    heart.classList.add('heart');
-    heart.textContent = '❤️';
-
-    let position = Math.random() * (100 - heartWidthPercent);
-    heart.style.left = `${position}%`;
-
-    heart.style.animationDuration = `${Math.random() * 5 + 3}s`;
-
-    heart.style.animationDelay = `-${Math.random() * 5}s`;
-
-    mainElement.appendChild(heart);
-  }
-});
-
-
-</script>
-
 </body>
 
 </html>

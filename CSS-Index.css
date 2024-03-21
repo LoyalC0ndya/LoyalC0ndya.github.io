@@ -126,14 +126,14 @@
 	}
 
 	#contenido {
-		transition: transform 2s; /* Ajusta la duración de la animación a tu preferencia */
+		transition: transform 2s;
 	}
 
 	button {
-		position: fixed; /* O cualquier otra posición que asegure que el botón no gire */
+		position: fixed;
 		bottom: 20px;
 		right: 20px;
-		z-index: 1000; /* Asegura que el botón se mantenga encima del contenido girado */
+		z-index: 1000;
 	}
 	
 	
